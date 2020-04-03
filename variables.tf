@@ -7,12 +7,12 @@ variable "namespace" {
 
 variable "selectors" {
   type = map(string)
-  default = []
+  default = {}
 }
 
 variable "labels" {
   type = map(string)
-  default = []
+  default = {}
 }
 
 variable "mysql_storage_size" {
