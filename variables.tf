@@ -57,5 +57,5 @@ variable "mysql_user" {
 
 variable "wait_until_bound" {
   description = "Wait for the claim to reach the `Bound` state. Defaults to `false`."
-  default     = false
+  default     = true
 }
