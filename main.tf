@@ -124,4 +124,5 @@ resource "kubernetes_persistent_volume_claim" "mysql" {
       }
     }
   }
+  wait_until_bound = var.wait_until_bound
 }

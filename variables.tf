@@ -54,3 +54,8 @@ variable "mysql_storage_persistent_volume_reclaim_policy" {
 variable "mysql_user" {
   description = "The name of the mysql user, also used as the name of the initial database."
 }
+
+variable "wait_until_bound" {
+  description = "Wait for the claim to reach the `Bound` state. Defaults to `false`."
+  default     = false
+}
